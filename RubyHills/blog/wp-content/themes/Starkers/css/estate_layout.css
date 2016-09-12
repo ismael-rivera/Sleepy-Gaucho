@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#breadcrumb{
+	width: 960px;
+	height: 35px;
+	background-color: #252525;
+	margin-top: 10px;
+	}
+#content_left_column ul {
+	padding-left: 0px;	
+}	
+.mc_menu{
+	list-style-type: none;
+	}
+.mc_menu a{
+	text-decoration: none;
+	font-size: 12px;		
+	}
+.mc_menu li{
+	padding-bottom: 25px;
+	}			
+#content_right_column{
+	float: right;
+	width: 750px;
+	height: auto;
+	overflow: auto;
+	}
+#content_right_column p{
+	font-size: 16px;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	}	
+#content_left_column{
+	float: left;
+	width: 200px;
+	height: auto;
+	overflow: auto;
+	}		
+
+	
+				

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.shadowout {
+	-moz-box-shadow: 3px 3px 8px #ccc;
+	-webkit-box-shadow: 3px 3px 8px #ccc;
+	box-shadow: 3px 3px 8px #ccc;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+table {
+	border: 1px solid #8CB7BD;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	}
+td {
+	text-align: center;
+}
+thead tr th {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #066;
+	background-color: #92CCCC;
+	}
+tbody tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #9ED7D9;
+	}

@@ -1,0 +1,90 @@
+/**
+ * DMAC Admin Styles
+ *
+ * Version 1.0
+ */
+
+/* DMAC Settings Page Icon */
+
+.dmac #icon-dmac { 
+	background: url(../images/dmac-icon-32.png) no-repeat; 
+}
+
+/* Postbox Layout Styles */
+
+.dmac .postbox .inside {
+	margin: 6px 6px 8px;
+}
+.dmac .fixedbox h3 {
+	cursor: default;
+}
+.dmac-postbox td {
+	vertical-align: top;
+}
+.dmac-postbox td.title {
+	width: 125px;
+}
+.dmac-postbox input.text {
+	margin-bottom: 5px;
+}
+
+/* Typography */
+
+.dmac-postbox input.text, .dmac-postbox textarea {
+	font-size: 11px;
+}
+.dmac-postbox .code-box {
+	font-family: monospace;
+}
+.dmac-postbox ul {
+	font-size: 11px;
+	list-style: disc;
+	margin-left: 1.5em;
+}
+	
+/* Form Elements */
+
+.dmac-postbox label {
+	margin-left: 8px;
+}
+.dmac-postbox input.text.full{
+	width: 98%;
+}
+.dmac-postbox input.text.long {
+	width: 400px;
+}
+.dmac-postbox input.text.short {
+	width: 150px;
+}
+.dmac-postbox textarea {
+	width: 98%;
+}
+.dmac-postbox textarea.short {
+	height: 75px;
+}
+.dmac-postbox textarea.tall {
+	height: 150px;
+}
+.dmac-postbox select.long {
+	width: 275px;
+}
+.dmac-postbox select.short {
+	width: 150px;
+}
+
+/* Miscellaneous */
+
+.dmac-postbox span.indent {
+	margin-left: 20px;
+}
+
+/* Utility Styles */
+
+.dmac .clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}

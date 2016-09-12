@@ -1,0 +1,3 @@
+<!--This file is for reference only. It referes to the text laid out in the text Widget for the "Our Partners" section of the footer. Whatever code is written here should reflect the same code placed on that widget in particular. Again, this text is for the purposes of having a backup of what is written in
+the "Our Partners" widget. Changing it will not alter anything within the website, however it would be best to leave it as is unless you plan to make changes to tha section.-->
+<div id="ftrlogos"></div> 

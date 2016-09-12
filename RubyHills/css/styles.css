@@ -1,0 +1,371 @@
+@charset "UTF-8";
+@import url("reset/reset.css");
+@import url("menu/mydropdown.css");
+@import url("essence_style.css");
+@import url("table_styles.css");
+@import url("menu/sidemenu.css");
+
+
+/* CSS Document */
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+/*	background-color: #099;*/
+}
+
+#session{
+	}
+#layer0,#layer1,#layer2,#layer3,#layer4{
+	height: auto;
+	width: 100%;
+	position: relative;
+	clear: both;
+	float: none;
+	display: table;
+	margin: 0px;
+	}
+
+#layer0,#layer2{
+	background-color: #EDE9E6;
+	}	
+	
+#layer0{
+	padding-bottom: 0px;	/*background-image: url(../images/menu_images/menu_bg.png);
+	background-repeat: repeat-x;*/
+	}
+#layer1{
+	background-color: #033;
+	}
+#layer2{
+	
+}
+#layer3{
+	background-color: #202020;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+}
+#layer4{
+	background-color: #751721;
+	color: #FFF;
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #C72436;
+	}
+.wrapper{
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	display:table;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+#header {
+	padding-top: 0px;
+	padding-bottom: 0px;}
+#logo{
+	width: 186px;
+	height: 130px;
+	float: left;
+	margin-top: 16px;
+	clear: left;
+	}	
+#logo a {
+	width: 186px;
+	height: 130px;
+	display: block;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+	overflow: hidden;
+	}		
+	
+#slider{
+	background-color: #CCC;
+	height: 300px;
+	width: 750px;
+	float: right;
+	margin-right: 0px;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #066;
+	border-left-color: #066;
+	}	
+#container.wrapper{
+	padding-top: 0px;
+}
+#rightColumn, #cont.right{
+	float: right;
+	width: 740px;
+	height: auto;
+	}
+#leftColumn, #cont.left{
+	float: left;
+	width: 235px;
+	height: 650px;
+	}
+#cont.right{
+	/*border: 1px solid #F00;*/
+	clear: none;
+	margin-bottom: 20px;
+	}
+#cont.left{
+	/*border: 1px solid #F00;*/
+	clear: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;	
+	}
+
+#title,#slug,#article{
+	width: 90%;
+	max-width: 700px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+	
+#title{
+	position: relative;
+	height: 25px;
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+}
+#slug{
+	position: relative;
+	height: 15px;
+}
+#article{
+	margin-top: 10px;
+	position: relative;
+	height: auto;
+	font-size: 14px;
+	}
+#pic{
+	height: 120px;
+	width: 150px;
+	border: 1px solid #0FF;
+	float: left;
+	clear: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+#footer.wrapper{
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#widget1,#widget2,#widget3{
+	width: 290px;
+	height: 350px;
+	clear: none;
+	border: 1px solid #C3CCBF;
+}
+#widget1{
+	float: left;
+	margin-left: 0px;
+	}
+#widget2{
+	float: left;
+	margin-right: auto;
+	margin-left: 45px;
+	}
+#widget3{
+	float: right;
+	margin-right: 0px;
+	}
+#site-info{
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	}
+
+/*THIS IS THE CSS FOR PAGE_2 WHICH RIGHT NOW CANNOT BE IMPORTED FOR SOME REASON WHICH I HAVE YET TO FIGURE OUT. FROM THE LOOKS, IT MAY HAVE SOMETHING TO DO WITH THE CSS FROM THE TEMPLATE USED FOR THE CONTENT AND NOT FROM MY OWN TEMPLATE I STILL HAVE TO CHECK SOME MORE BUT FOR NOW THIS IS A SIMPLE SOLUTION TO A SMALL PROBLEM. IDEALLY THE CODE BENEATH WOULD BE STORED HERE EVENTUALLY ANYWAYS WHEN COMPRESSING THE FILES SO IT WORKS OUT..'HOWEVER FOR THE PURPOSES OF DEVELOPMENT I'M WRITING THIS LONG TEXT SO THAT I CAN DIVIDE THE TWO CSS FILES WHILE KEEPING THEM INLINE'*/ 
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A1A1A1;
+}
+
+h1 {
+}
+
+h2, h3, h4, h5, h6 {
+	color: #2582A4;
+}
+
+p, ol, ul {
+	text-align: justify;
+}
+
+strong {
+	font-weight: bold;
+	color: #808080;
+}
+
+a {
+	color: #87A019;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #2582A4;
+}
+
+
+
+.bottom {
+	display: block;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	background: url(images/img08.gif) no-repeat left bottom;
+}
+
+.image {
+	float: left;
+	margin: 3px 0 0 0;
+	padding: 0;
+}
+
+.indent {
+	margin-left: 125px;
+}
+
+
+
+
+/* Menu */
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 27px;
+	padding: 10px 15px 0px 15px;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	height: 28px;
+	margin: 0;
+	padding: 9px 25px 0 0;
+	background: url(images/img03.gif) no-repeat right top;
+}
+
+#search fieldset {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#input1 {
+	width: 164px;
+	padding: 2px 5px;
+	background: #FFFFFF;
+	border: none;
+}
+
+#input2 {
+	height: 20px;
+	background: #87C4DB;
+	border: none;
+	text-transform: lowercase;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Content */
+
+
+
+#colOne {
+	float: left;
+	width: 238px;
+	background: url(images/img05.gif) repeat-x;
+	padding-top: 24px;
+}
+
+#colOne h3 {
+	padding: 0 20px;
+}
+
+#colOne ul {
+	margin-left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	list-style: none;
+}
+
+#colOne li {
+	padding: 5px 0;
+	border-top: 1px solid #EFEFEF;
+}
+
+#colOne li.first {
+	border: none;
+}
+
+#colTwo {
+	float: right;
+	width: 700px;
+	background: url(images/img09.gif) repeat-x;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+
+#colTwo h2 {
+	margin-top: 0;
+	font-size: 26px;
+}
+
+#colTwo h3 {
+	margin-bottom: 0;
+	font-size: 18px;
+}
+
+#colTwo h4 {
+	margin-top: 0;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#colTwo .box {
+	margin: 0 -30px 30px -20px;
+	padding: 0 30px 0 20px;
+}
+
+#colTwo .bottom {
+	margin: 0 0 20px -20px;
+	padding: 0 0 20px 20px;
+}
+
+

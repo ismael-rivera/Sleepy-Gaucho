@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+#sidenav{
+	height: 300px;
+	width: 180px;
+	color: #FFF;
+	float: left;
+	padding-right: 20px;
+	clear: left;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	}	
+
+ul#sidenav.side{
+	width: 150px;
+	height: 200px;
+	float: left;
+	text-align: left;
+}
+
+ul#sidenav.side li {
+	height: 40px;
+	width: 168px;
+	padding-left: 30px;
+	
+	}
+ul#sidenav.side li a{
+	height: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	font-size: 14px;
+	display: block;
+	list-style-type: none;
+	list-style-image: none;
+	text-decoration: none;
+}
+ul#sidenav.side li.on a {
+	width: auto;
+	background-color: #F00;
+	}
+
+ul#sidenav.side li.off a {
+	width: auto;
+	background-color: #F00;
+	}	
+			
+ul#sidenav.side li:hover{
+	background-image: url(../../images/menu_images/nav-arrow-right.png);
+	background-color: #066;
+	background-repeat: no-repeat;
+	color: #FFF;
+	background-position: 16px;
+	}	
+ul#sidenav.side li a:hover{
+	height: 30px;
+}
+
+/*property for creating a side menu*/
+ul#sidenav.side li.dir:hover{
+	}

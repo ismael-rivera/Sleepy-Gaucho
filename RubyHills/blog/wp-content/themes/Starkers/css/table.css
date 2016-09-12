@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table.prices{
+	vertical-align: middle;
+	}
+table.prices td {
+	border: 1px solid #FDF9F6;
+	}
+table.prices td {
+	text-align: center;
+	height: 40px;
+	background-color: #006666;
+	color: #FFF;
+	}		
+	
+table.prices th{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FDF9F6;
+	font-size: 18px;
+	}	
