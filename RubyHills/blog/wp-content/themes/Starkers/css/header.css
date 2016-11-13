@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#search{
+	margin-top: 42px;	
+	}	
+#search, #searchform div{
+	float: right;
+	width: 210px;
+	height: 28px;
+	/*background-color: #0CF;*/
+	}	
+#searchform div{
+	/*background-color: #0CF;*/
+	padding: 0px;	
+}
+	
+#searchsubmit{
+	color: #FFF;
+	background-color: #333;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border: none;
+	height: 26px;
+	width: 60px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 3px;
+	float: left;
+	}	
+#s {
+	background-color: #fff;
+	height: 24px;
+	border: 1px solid #333;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}		

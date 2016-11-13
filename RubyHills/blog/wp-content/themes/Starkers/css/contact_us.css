@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input.wpcf7-text{
+	height: 30px;
+	width: 600px;
+	font-size: 24px;
+	}
+textarea {
+	height: 300px;
+	width: 600px;
+	font-size: 24px;
+	}
+input.wpcf7-submit {
+	height: 50px;
+	width: 100px;
+	font-size: 22px;
+	}		

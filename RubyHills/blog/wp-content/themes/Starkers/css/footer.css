@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+/*-----------------------WORDPRESS FOOTER---------------------------*/
+#footer h3{
+	color: #FFF;
+	font-size: 22px;
+	}
+
+#footer	{
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	color: #fff;
+	overflow: auto;
+	position: relative;
+	}
+#footer ul{
+	padding-left: 18px;
+	padding-bottom: 25px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 222px;
+	float: left;
+	list-style-type: none;
+	margin-bottom: 0px;
+	}
+#footer li{
+	width: 200px;
+	}		
+#footer a {
+	width: 200px;
+	color: #CCC;
+	text-decoration: none;
+	}
+
+/*-----------------------END WORDPRESS FOOTER---------------------------*/
+table{
+	margin-right: auto;
+	margin-left: auto;
+	}
+table td {
+	vertical-align: top;
+	/*background-color: #C90;*/
+	width: 317px;
+	}
+		
+#footerwrapper{
+	width: 100%;
+	height: auto;
+	background-color: #066;
+	margin-bottom: 0px;
+	clear: both;
+	float: none;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #D3D0CE;
+	padding-top: 0px;
+	padding-bottom: 45px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #009393;
+	position: relative;
+	}
+	
+/*-----------------------SUBFOOTER---------------------------- */
+#subfooterwrapper{
+	width: 100%;
+	height: auto;
+	background-color: #333;
+	margin-bottom: 0px;
+	clear: both;
+	float: none;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #1F1F1F;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFF;
+	}			
+#subfooter{
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	position: relative;
+	}
+#subfooter a{
+	color: #fff;
+	}
+.legal{
+	width: auto;
+	height: auto;
+	float: right;
+	color: #FFF;
+	}
+/*-----------------------WIDGET---------------------------- */
+#footer .widget-container{
+	width: auto;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#ftrlogos {
+	display: block;
+	height: 92px;
+	width: 170px;
+	margin-top: 10px;
+	background-image: url(../images/RealEstateLinx_logo.png);
+	background-repeat: no-repeat;
+	}	
+
+#footer .widget-container ul {
+	margin-top: 5px;
+	list-style-type: none;
+	padding-left: 0px;
+	}
+.widget li{
+	margin-left: 0px;
+	}		
+.widget a{
+	color: #FFF;
+	text-decoration: none;
+	}
+.widget h4{
+	font-size: 24px;
+	color: #FFF;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: "Belizio FB Bold";
+	}	
+li .widget-container widget_text{
+	margin-top: 25px;
+	background-color: #099;	
+	}
+		
