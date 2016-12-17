@@ -1,1 +1,0 @@
-﻿package  {		import flash.display.MovieClip;	import flash.text.TextField;		public class main extends MovieClip {					public function HelloWorld() {			var txtFld:TextField = new TextField();			addChild(txtFld);						txtFld.text = "Hello MotherFuckers!!!";				}		}	}
